@@ -1,0 +1,77 @@
+// eliminar una plataforma (ios --  android)
+ionic cordova platform rm ios
+
+
+// eliminar una plataforma (ios --  android)
+ionic cordova platform rm android
+
+// agregar una plataforma (ios --  android)
+ionic cordova platform add android -------- OJO CUANDO GENERA LA 9 
+cordova platform add android@8.0.0
+
+
+// agregar una plataforma (ios --  android)
+ionic cordova platform add ios
+
+
+// comando para alistar la app antes de compilar en android
+ionic cordova prepare android
+
+
+
+// comando para alistar la app antes de compilar en ios
+ionic cordova prepare ios
+
+
+
+// lanzar la aplicacion para un dispostivo android
+ionic cordova run android --device --verbose
+
+
+//generar splash imagen de carga inicial
+ionic cordova resources
+
+// agregar la plataforma 8 dado que aun no se tiene una version estable de android 9 
+cordova platform add android@8.0.0
+
+
+// comando para sacar una version android mas liviana
+ionic cordova build android --prod --aot --minifyjs --minifycss --optimizejs
+
+// preparar ios para prod
+ionic cordova build ios --prod
+
+
+
+// nota para lanzar la aplicacion para un dispositivo ios se prepara primero con el comando mencionado anteriromente y desde el xcode se selcciona el tipo de dispositov una vez este conectado al computado y se le da play
+
+
+
+// LIMPIAR PROYECTO EN XCODE ------------------------------- ////
+Reinicia el simulador:
+
+Hardware -> Erase All content and settings...
+
+Limpia tu proyecto:
+
+shift+ cmd+K
+
+shift+ opt+ cmd+K
+
+
+
+
+Claves
+
+apple licencia
+kkonex1@gmail.com
+Fedora0214
+
+
+correo gmail
+kkonex1@gmail.com
+Fedora0214
+
+
+llavero
+Fedora1807

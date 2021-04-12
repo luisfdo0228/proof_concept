@@ -1,0 +1,8 @@
+{
+  "name": "movilApp",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
